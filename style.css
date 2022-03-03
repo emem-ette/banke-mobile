@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home-page {
+    height: 100vh;
+    background-color: #3FC979;
+}
+.home-page-img {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.home-page-header h1  {
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 30px;
+    padding-bottom: 70px;
+}
+.home-page-button {
+    display: flex;
+    justify-content: center;
+}
+.home-page-button button {
+    border: 5px solid #F7D176;
+    padding: 10px 70px 10px 70px;
+    background-color:#F7D176;
+    border-radius: 20px;
+
+}
+.home-page-button a {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Inria Sans', sans-serif;
+    text-decoration: none;
+}
